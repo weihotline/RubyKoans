@@ -1,5 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/neo')
-require './greed/game'
+require_relative './GREED/game'
 
 class GreedTest < Neo::Koan
   # Player class
